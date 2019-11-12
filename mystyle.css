@@ -1,0 +1,249 @@
+*,
+*:before,
+*:after {
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.navigation_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #006E83;
+    height: 50px;
+}
+
+.navigation_item {
+    margin: 0 16px 0 16px;
+}
+
+.link {
+    text-decoration: none;
+    color: lightgray;
+    font-family: sans-serif;
+}
+
+.link1 {
+    text-decoration: none;
+    color: darkorange;
+
+
+
+}
+
+@font-face {
+font-family: "brush";
+src: url("BRUSHSCI.ttf");
+}
+
+.brush {
+font-family: 'brush', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+font-size: 40px;
+}
+
+
+
+.header_image {
+    width: 100%;
+
+}
+
+@media only screen and (min-width: 610px) {
+    .contact_container {
+        flex-direction: row;
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+
+}
+.contact_container {
+    background-color: #006E83;
+    color: lightgray;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+
+.contactme_container {
+    width: 320px;
+    font-size: 16px;
+}
+
+.some_container {
+    width: 150px;
+    font-size: 16px;
+
+}
+
+.insta_image {
+    width: 30px;
+    height: 30px;
+}
+
+.facebook_image {
+    width: 32px;
+    height: 32px;
+}
+
+.intro_text {
+    color: black;
+    font-size: 24px;
+    opacity: 80%;
+    border-spacing: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+
+.text {
+    color: black;
+    font-size: 24px;
+}
+.intro_container {
+    text-align: center;
+    margin: 25px 25px 25px 25px;
+}
+
+
+.islands_img {
+    width: 50%;
+    height: 50%;
+}
+
+.headline {
+font-family: 'brush', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+font-size: 80px;
+}
+
+
+.details_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.content_container {
+    padding: 16px 24px 16px 24px;
+    margin: 16px 16px 16px 16px;
+    width: 320px;
+    text-align: center;
+}
+
+
+.icon_text1 {
+    color: black;
+    font-size: 25px;
+    margin-top: 8px;
+    font-family: 'brush', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+font-size: 50px;
+
+
+}
+
+.icon_text2 {
+    color: black;
+    font-size: 25px;
+    margin-top: 8px;
+    font-family: 'brush', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+    font-size: 50px;  }
+
+    .icon_text3 {
+    color: black;
+    font-size: 25px;
+    margin-top: 8px;
+    font-family: 'brush', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+font-size: 50px;
+         }
+
+
+.culture_img {
+    width:300px;
+    height: 300px;
+    object-fit: scale-down;
+}
+
+.nature_img {
+    width:300px;
+    height: 300px;
+    object-fit: scale-down;
+}
+
+.activities_img {
+    width:300px;
+    height: 300px;
+    object-fit: scale-down;
+}
+
+
+
+.headline1 {
+font-family: 'brush', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+font-size: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.littleheadline {
+    font-family: 'brush', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+
+.marginclass {
+    margin: 100px;
+}
+
+
+@media only screen and (min-width: 470px) {
+    .navigation_item link1 {
+        display: inline;
+    }
+
+    .navigation_container {
+        justify-content: space-between;
+    }
+
+}
+
+
+
+
+.source {
+    padding-bottom: 20px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 10px;
+
+}
+
+body {
+  background-image: url("orange-palm-tree.svg");
+  background-repeat: no-repeat;
+}
